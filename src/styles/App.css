@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+.wrapper {
+  background-color: blueviolet;
+  height: 100%;
+}
+
+
+#quote-box {
+  width: 50%;
+  height: 250px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  
+
+}
+
+#text {
+  font-size: xx-large;
+  margin-bottom: 20px;
+
+}
+
+#author {
+font-size: smaller;
+text-align: right;
+}
+
+#new-quote {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: cornflowerblue;
+  height: 30px;
+  width: 100px;
+
+}
+
+#tweet-quote {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+}
+
+
